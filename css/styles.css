@@ -1,0 +1,139 @@
+body{
+  padding-left: 0.5em;
+}
+p{
+  font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+/*navbar*/
+.btm{
+  margin: 0.5em;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #CDF2CA;
+  width: 100%;
+}
+/*brand logo*/
+.brand{
+
+  font-size: 1em;
+  font-family: 'Dancing Script', cursive;
+}
+/* section 1  : intro */
+/*.section1{
+  color: #93B5C6;
+  max-width: 40%;
+  float: right;
+  margin-left: 0px;
+  padding: 1em;
+}*/
+#intro{
+  background: #CDF2CA  no-repeat center center fixed;
+  background-size: cover;
+  min-height: 35em;
+  color: #fef1e6;
+}
+.title{
+  color: #ff9999 ;
+  font-size: 6em;
+  font-family: 'Dancing Script', cursive;
+  padding:0.5em;
+  text-align: center;
+}
+
+.images{
+  border-radius: 100%;
+  height: 16em;
+  width: 16em;
+  margin: auto 0.5em;
+  text-align: center;
+  position: relative;
+ animation-name: move;
+ animation-duration: 2s;
+ animation-iteration-count: 2;
+}
+.center{
+  text-align: center;
+}
+@keyframes move {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+.images:hover{
+  top: 200px;
+}
+
+/*section 2 cooking*/
+#cooking{
+  margin: 1em 0.3em;
+  min-height: 30em;
+}
+
+
+.hobbie1{
+  color: #93B5C6;
+  font-size: 3.5em;
+  font-family: 'Dancing Script', cursive;
+}
+.text{
+  color: #C9CCD5;
+  font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.5em auto;
+  text-align: center;
+}
+.section2{
+  color: #93B5C6;
+  max-width: 60%;
+  text-align: left;
+}
+.images2{
+  display: inline-block;
+  border-radius: 100%;
+  height: 16em;
+  width: 16em;
+float: right;
+
+}
+/*section 3 fitness*/
+#fitness{
+    background: #CDF2CA;
+  margin: 1em 0.3em;
+  min-height: 30em;
+}
+.fitness{
+  max-width: 60%;
+  margin:auto;
+}
+.images3{
+  display: inline-block;
+  border-radius: 100%;
+  height: 10em;
+  width: 10em;
+  padding: 0.5em;
+}
+.float{
+  float: left;
+}
+.floato{
+  float: right;
+}
+.section3{
+  color: #93B5C6;
+  max-width: 80%;
+  text-align: left;
+  clear: none;
+}
+.yoga, .fit, .Stretches{
+  margin: 4em auto;
+
+}
+/*section 4 quiz*/
+#quiz{
+  margin: 1em 0.3em;
+  min-height: 30em;
+  text-align: center;
+}
